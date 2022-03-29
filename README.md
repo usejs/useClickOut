@@ -14,25 +14,25 @@
 
 <br/>
 
-[useClickOut]() is a custom hook that captures the click in and out of an HTML element. It returns an array with three values and has a single argument.
+[useClickOut](#useClickOut) is a custom hook that captures the click in and out of an HTML element. It returns an array with three values and has a single argument.
 
 - Returns:<br/>
-[ref]() : First value, `Type`: `React.RefObject<HTMLDivElement>`<br/>
-[state]() : Second  value, `Type`: `boolean`<br/>
- [setState]() : Third  value, `Type`: `React.Dispatch<React.SetStateAction<boolean>>`<br/>
+[ref](#ref) : First value, `Type`: `React.RefObject<HTMLDivElement>`<br/>
+[state](#state) : Second  value, `Type`: `boolean`<br/>
+ [setState](#setstate) : Third  value, `Type`: `React.Dispatch<React.SetStateAction<boolean>>`<br/>
 
 - Argument<br/>
-  [initialState](): `boolean`<br/>
+  [initialState](#initialState): `boolean`<br/>
 
 ### Install
 ```bash 
-npm i @use.js/clickout
+npm i @use-ts/clickout
 ```
 
 ### Usage
 
 ```tsx 
-import useClickOut from '@use.js/clickout'
+import useClickOut from '@use-ts/clickout'
 
 const Square = () => {
 
@@ -56,7 +56,7 @@ export default Square
 ### Type
 > if you need `useClickOut` type, import inside `UseClickOut` braces with first letter capitalized.
 ```ts
-import useClickOut, { UseClickOut } from '@use.js/clickout'
+import useClickOut, { UseClickOut } from '@use-ts/clickout'
 ```
 
 ```ts

@@ -1,5 +1,5 @@
 {
-  "name": "@use.js/clickout",
+  "name": "@use-ts/clickout",
   "version": "0.1.2",
   "description": "A Custom React Hook to detect a click outside of an component.",
   "repository": "https://github.com/usejs/useClickOut",
