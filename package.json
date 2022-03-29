@@ -1,6 +1,6 @@
 {
   "name": "useclickout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Custom React Hook to detect a click outside of an element.",
   "repository": "https://github.com/usejs/useClickOut",
   "author": "André Malveira <andremalveira.dev@gmail.com>",
@@ -60,5 +60,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.1"
   }
 }
