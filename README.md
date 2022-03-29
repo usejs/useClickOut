@@ -44,7 +44,7 @@ const Square = () => {
       onClick={() => setState(true)}  
     >
       Click
-        {state ? 'Inside' : 'Outside'}
+        {state ? ' Inside ' : ' Outside '}
       the square.
     </div>
   </>)
