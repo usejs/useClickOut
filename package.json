@@ -60,8 +60,5 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
-  },
-  "dependencies": {
-    "@testing-library/react-hooks": "^7.0.2"
   }
 }
