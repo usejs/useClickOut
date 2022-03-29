@@ -26,13 +26,13 @@
 
 ### Install
 ```bash 
-npm i useclickout
+npm i @use.js/clickout
 ```
 
 ### Usage
 
 ```tsx 
-import useClickOut from 'useclickout'
+import useClickOut from '@use.js/clickout'
 
 const Square = () => {
 
@@ -56,7 +56,7 @@ export default Square
 ### Type
 > if you need `useClickOut` type, import inside `UseClickOut` braces with first letter capitalized.
 ```ts
-import useClickOut, { UseClickOut } from 'useclickout'
+import useClickOut, { UseClickOut } from '@use.js/clickout'
 ```
 
 ```ts
