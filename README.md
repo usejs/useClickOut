@@ -7,7 +7,7 @@
 <p align="center">
 <a href="#details">
 <img src="https://img.shields.io/badge/License-MIT-319046?" alt="License-MIT"/>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/npm-0.1.2-319046?" alt="License-MIT"/></a>
+<img src="https://img.shields.io/badge/npm-0.1.3-319046?" alt="License-MIT"/></a>
 
 
 </p>
@@ -26,13 +26,13 @@
 
 ### Install
 ```bash 
-npm i @use-ts/clickout
+npm i @_use/clickout
 ```
 
 ### Usage
 
 ```tsx 
-import useClickOut from '@use-ts/clickout'
+import useClickOut from '@_use/clickout'
 
 const Square = () => {
 
@@ -56,7 +56,7 @@ export default Square
 ### Type
 > if you need `useClickOut` type, import inside `UseClickOut` braces with first letter capitalized.
 ```ts
-import useClickOut, { UseClickOut } from '@use-ts/clickout'
+import useClickOut, { UseClickOut } from '@_use/clickout'
 ```
 
 ```ts
